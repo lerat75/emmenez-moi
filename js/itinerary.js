@@ -10,8 +10,8 @@ function itineraryFloodcast(){
     var markerManager = new MarkerManager({add_markers_at_init:false, show_next_marker:true});
 
     markerManager.addMarker({
-        latlng : [48.876940669426176, 2.392773471087821],
-        title : "place des Fêtes",
+        latlng : [48.8442099, 2.3286613],
+        title : "La Gentiane",
         mp3: "./assets/audio/floodcast/1.mp3"
     })
 
