@@ -9,7 +9,7 @@ const tile = "https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.j
 const ZOOM_LEVEL = 150;
 const RADIUS = 50;
 const MATHIS_ICON = L.icon({
-    iconUrl: './assets/menielle.png',
+    iconUrl: './assets/mathis_icon.png',
     iconSize: [50, 50],
 });
 // Setting up the map

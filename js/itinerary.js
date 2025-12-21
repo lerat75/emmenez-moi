@@ -7,24 +7,24 @@ export function setItinerary(itinerary_id){
 }
 
 function itineraryFloodcast(){
-    var markerManager = new MarkerManager({add_markers_at_init:false, show_next_marker:true});
+    var markerManager = new MarkerManager({add_markers_at_init:false, show_next_marker:false});
 
     markerManager.addMarker({
-        latlng : [48.8442099, 2.3286613],
-        title : "La Gentiane",
-        mp3: "./assets/audio/floodcast/1.mp3"
+        latlng : [48.8697685, 2.4006015],
+        title : "Test Poincaré",
+        mp3: "./assets/audio/floodcast/test_1.mp3"
     })
 
     markerManager.addMarker({
-        latlng : [48.87599771668867, 2.3950101147125165],
-        title : "Regard de la Lanterne",
-        mp3: "./assets/audio/floodcast/2.mp3"
+        latlng : [48.8686928, 2.4017597],
+        title : "Test pelleport",
+        mp3: "./assets/audio/floodcast/test_2.mp3"
     })
     
     markerManager.addMarker({
-        latlng : [48.875493063136254, 2.392016973615131],
-        title : "Etape avant Jourdain",
-        mp3: "./assets/audio/floodcast/3.mp3"
+        latlng : [48.8674255, 2.4006808],
+        title : "Test dupont de l eure",
+        mp3: "./assets/audio/floodcast/test_3.mp3"
     })
 
     markerManager.addMarker({
@@ -40,8 +40,8 @@ function itineraryFloodcast(){
     })
     
     markerManager.addMarker({
-        latlng : [48.87422173771712, 2.3819636532592083],
-        title : "Usine Mecano",
+        latlng : [48.8442099, 2.3286613],
+        title : "La Gentiane",
         mp3: "./assets/audio/floodcast/6.mp3"
     })
 
