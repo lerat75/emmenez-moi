@@ -10,8 +10,8 @@ function itineraryFloodcast(){
     var markerManager = new MarkerManager({add_markers_at_init:false, show_next_marker:false});
 
     markerManager.addMarker({
-        latlng : [48.8697685, 2.4006015],
-        title : "Test Poincaré",
+        latlng : [48.87093435936717, 2.401507612325875],
+        title : "Départ Poincaré",
         mp3: "./assets/audio/floodcast/test_1.mp3"
     })
 
