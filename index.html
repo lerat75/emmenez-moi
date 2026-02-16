@@ -25,7 +25,15 @@
 </head>
 <body>
     <!-- Your HTML content here -->
-
+    <script>
+        // --- SYSTÈME DE MOT DE PASSE ---
+        var password = prompt("Entrez le mot de passe pour accéder au tour du love :");
+        if (password !== "boutylove") {
+            alert("Accès refusé !");
+            document.body.innerHTML = "<h1>Accès non autorisé</h1>"; // Vide la page
+            window.location.href = "https://www.google.com"; // Redirige
+        }
+    </script>
 
     <div id="titlediv" style="background-color:blue;display:none">Ici</div>
     <div id="map"></div>
