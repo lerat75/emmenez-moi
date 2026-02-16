@@ -22,6 +22,12 @@ function itineraryFloodcast(){
     })
 
     markerManager.addMarker({
+        latlng :  [48.842299492607864, 2.3292797054985925],
+        title : "Bisou",
+        mp3: "./assets/audio/floodcast/test_2.mp3"
+    })
+
+    markerManager.addMarker({
         latlng :  [48.844912305740074, 2.337004121683637],
         title : "Luco 1",
         mp3: "./assets/audio/floodcast/test_2.mp3"
