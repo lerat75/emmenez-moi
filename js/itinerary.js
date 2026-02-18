@@ -46,20 +46,14 @@ function itineraryFloodcast(){
     })
 
     markerManager.addMarker({
-        latlng :  [48.846142819245436,2.3144033094398164],
-        title : "Necker",
-        mp3: "./assets/audio/floodcast/test_2.mp3"
-    })
-
-    markerManager.addMarker({
-        latlng :  [48.834007263183594,2.3131866455078125],
-        title : "Coloc Bout",
-        mp3: "./assets/audio/floodcast/test_2.mp3"
-    })
-
-    markerManager.addMarker({
         latlng :  [48.85228417681764,2.3388431208483462],
         title : "Odéon",
+        mp3: "./assets/audio/floodcast/test_2.mp3"
+    })
+
+    markerManager.addMarker({
+        latlng :  [48.85065873593057,2.3215330229485565],
+        title : "Jardin Catherine Labouré",
         mp3: "./assets/audio/floodcast/test_2.mp3"
     })
 
